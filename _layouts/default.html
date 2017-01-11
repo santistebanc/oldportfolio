@@ -1,0 +1,26 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="icon" type="image/x-icon"  href="{{ "/public/favicon.ico" | prepend: site.baseurl }}" />
+    <link rel="stylesheet" href="{{ "/public/theme.css" | prepend: site.baseurl }}">
+    <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="title">{{ site.title }}</h1>
+      <h2 class="subtitle">{{ site.description }}</h2>
+    </div>
+    {% include navbar.html %}
+    <div class="content">
+      {{ content }}
+      {% include projects.html %}
+    </div>
+  </body>
+</html>

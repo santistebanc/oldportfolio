@@ -1,0 +1,19 @@
+<nav class="navbar">
+  <div class="circlebar">
+    {% for circle in site.navbar %}
+      <div class="circlebar-element">
+        {% assign first_letter = circle.link | split: '' | first %}
+        {% if first_letter == '/' %}
+          <a href="{{ circle.link | prepend: site.baseurl }}" class="circlebar-link">
+        {% else %}
+          <a href="{{ circle.link }}" class="circlebar-link">
+        {% endif %}
+            {% capture icon %}{% include {{ circle.icon | prepend: 'icons/' }} %}{% endcapture %}
+            <span class="circlebar-shadow"></span>
+            <span class="circlebar-icon" style="background-image: url('data:image/svg+xml;utf8,{{ icon | uri_escape }}')"></span>
+            <span class="circlebar-text">{{ circle.name }}</span>
+          </a>
+      </div>
+    {% endfor %}
+  </div>
+</nav>
