@@ -3,6 +3,8 @@ title: "Carlos Santisteban"
 # Description of the site
 description: "My Portfolio"
 
+theme: jekyll-theme-cayman
+
 # The subpath of your site - use "" if you're hosting a blog at the root level
 baseurl: ""
 # The base hostname & protocol for your site
