@@ -1,26 +1,25 @@
 @font-face {
-  font-family: 'Muli';
+  font-family: 'OpenSans';
   font-style: normal;
   font-weight: 300;
-  src: url('../public/Muli/Muli-Regular.ttf');
+  src: url('../public/OpenSans-Regular.ttf');
 }
 
 body {
   margin: 0;
   padding: 0;
   font-size: 11pt !important;
-  font-family: 'Muli', sans-serif !important;
-  background-color: hsl(2, 57%, 40%);
-  background-color: #0069ab;
-  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
+  font-family: 'OpenSans', sans-serif !important;
+  background-color: #FCFCFD;
 }
 
+
 h1,h2,h3,h4,h5,h6{
-  font-family: 'Muli', sans-serif !important;
+  font-family: 'OpenSans', sans-serif !important;
 }
 
 .ui.header{
-  font-family: 'Muli', sans-serif !important;
+  font-family: 'OpenSans', sans-serif !important;
 }
 
 .ui.white{

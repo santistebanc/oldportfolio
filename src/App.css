@@ -1,4 +1,34 @@
-.App {
+.head-section {
   text-align: center;
+  background-color: hsl(2, 57%, 40%);
+  background-color: #0069ab;
+  background-image: url("https://www.transparenttextures.com/patterns/batthern.png");
   padding-top: 50px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.projects-section{
+  padding-top: 10px;
+}
+
+.ui.bordered.image img{
+  border-width: 10px !important;
+}
+
+.blue{
+  color: #0069ab;
+}
+
+em{
+  color: #0069ab;
+  font-weight: 500;
+}
+
+.extra a{
+  color: #d83a31 !important;
+}
+
+.extra a:hover{
+  color: #ea6c64 !important;
 }
