@@ -6,6 +6,8 @@ import Head from './Head.js';
 import TriviaAppProject from './TriviaAppProject.js';
 import MinigamesProject from './MinigamesProject.js';
 import TournamentProject from './TournamentProject.js';
+import MiniTanksProject from './MiniTanksProject.js';
+import KartRacingProject from './KartRacingProject.js';
 
 class App extends Component {
   render() {
@@ -21,6 +23,8 @@ class App extends Component {
             <TriviaAppProject lang={'en'}/>
             <MinigamesProject lang={'en'}/>
             <TournamentProject lang={'en'}/>
+            <MiniTanksProject lang={'en'}/>
+            <KartRacingProject lang={'en'}/>
           </Item.Group>
           </Container>
         </section>
