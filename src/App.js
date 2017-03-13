@@ -8,6 +8,8 @@ import MinigamesProject from './MinigamesProject.js';
 import TournamentProject from './TournamentProject.js';
 import MiniTanksProject from './MiniTanksProject.js';
 import KartRacingProject from './KartRacingProject.js';
+import AutomatasProject from './AutomatasProject.js';
+import MozoProject from './MozoProject.js';
 
 class App extends Component {
   render() {
@@ -20,11 +22,13 @@ class App extends Component {
           <Container>
             <Divider horizontal><Header size={'big'}><Icon name='travel'/>PROJECTS</Header></Divider>
           <Item.Group>
+            <MozoProject lang={'en'}/>
             <TriviaAppProject lang={'en'}/>
             <MinigamesProject lang={'en'}/>
-            <TournamentProject lang={'en'}/>
-            <MiniTanksProject lang={'en'}/>
             <KartRacingProject lang={'en'}/>
+            <MiniTanksProject lang={'en'}/>
+            <AutomatasProject lang={'en'}/>
+            <TournamentProject lang={'en'}/>
           </Item.Group>
           </Container>
         </section>
