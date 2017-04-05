@@ -75,3 +75,11 @@ em{
 .explist div{
   font-size: 1em !important;
 }
+
+.stackable.menu>a{
+  justify-content: center;
+}
+
+.stackable.menu>div.right.menu>div.ui.buttons{
+  width:100%;
+}
