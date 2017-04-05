@@ -10,33 +10,37 @@ const en = {
   developer: <span>Web Developer with focus on <strong className="green">Front-End</strong></span>,
   areas: <span>Experienced in design and development of <strong>hybrid applications</strong> (web and mobile) and <strong>2D/3D videogames</strong></span>,
   experience: <span><strong>5+ years</strong> doing Web Development projects and <strong>1 year</strong> of Professional Experience</span>,
-  languages: <span>Languages: <span> </span>
+  languages: <span><p>Languages: </p><p>
     <LanguageLabel icon='es' title='Spanish' desc='native'/>
-    <LanguageLabel icon='gb' title='English' desc='fluent (TOEFL: 647)'/>
+    <LanguageLabel icon='gb' title='English' desc='fluent'/>
     <LanguageLabel icon='de' title='German' desc='B2'/>
-    <LanguageLabel icon='fr' title='French' desc='A2'/></span>,
+    <LanguageLabel icon='fr' title='French' desc='A2'/></p></span>,
   qualities: 'Curious, proactive, creative, friendly, responsible'
 }
 
 const Profile = ({developer, experience, areas, languages, qualities}) => <List>
     <List.Item>
-      <Icon name='right triangle' />
+      {/* <Icon name='right triangle' /> */}
       <List.Content>{developer}</List.Content>
     </List.Item>
+    <br/>
     <List.Item>
-      <Icon name='right triangle' />
+      {/* <Icon name='right triangle' /> */}
       <List.Content>{experience}</List.Content>
     </List.Item>
+    <br/>
     <List.Item>
-      <Icon name='right triangle' />
+      {/* <Icon name='right triangle' /> */}
       <List.Content>{areas}</List.Content>
     </List.Item>
+    <br/>
     <List.Item>
-      <Icon name='right triangle' />
+      {/* <Icon name='right triangle' /> */}
       <List.Content>{languages}</List.Content>
     </List.Item>
+    <br/>
     <List.Item>
-      <Icon name='right triangle' />
+      {/* <Icon name='right triangle' /> */}
       <List.Content>{qualities}</List.Content>
     </List.Item>
   </List>
