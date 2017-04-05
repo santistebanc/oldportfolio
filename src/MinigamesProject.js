@@ -11,6 +11,7 @@ const tech = <span>
 const en = {
   image: './img/minigamesscreen.png',
   title: 'Minigames',
+  year: '2014',
   techs: tech,
   subtitle: 'HTML5 Canvas Mobile game',
   desc: <span>Prototype Mobile game developed with <em>Phaser.js</em>. Earn points completing a series of 'minigames' in a certain amount of time. Designed to run in all major mobile platforms and on the web.</span>,

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Item, Grid, Header } from 'semantic-ui-react'
 
-const ProjectItem = ({image, title, techs, subtitle, desc, extra}) => (
+const ProjectItem = ({image, title, techs, subtitle, desc, extra, year}) => (
   <Item>
     <Grid doubling columns={2}>
     <Grid.Column width={7}>
@@ -9,7 +9,7 @@ const ProjectItem = ({image, title, techs, subtitle, desc, extra}) => (
     </Grid.Column>
     <Grid.Column width={9}>
       <Item.Content>
-        <Header dividing className="blue" size="small">{title}</Header>
+        <Header dividing className="blue" size="small">{title} <span className="yearinheader">{year}</span></Header>
         <div>{techs}</div>
         <Item.Meta>{subtitle}</Item.Meta>
         <Item.Description>{desc}</Item.Description>

@@ -11,6 +11,7 @@ const tech = <span>
 const en = {
   image: './img/automatas.png',
   title: 'Automata Simluator',
+  year: '2016',
   techs: tech,
   subtitle: 'Create states, input, and functions to visualize state-machines',
   desc: <span>Deterministic, Nondeterministic, finite  Automaton, pushdown Automaton and Turing machine simulator in javascript. Visualization graph made with <em>mermaid.js</em></span>,

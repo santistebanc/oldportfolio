@@ -1,18 +1,30 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import { Header, Divider, Container, Icon, Item } from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 import Head from './Head.js';
-import TriviaAppProject from './TriviaAppProject.js';
-import MinigamesProject from './MinigamesProject.js';
-import TournamentProject from './TournamentProject.js';
-import MiniTanksProject from './MiniTanksProject.js';
-import KartRacingProject from './KartRacingProject.js';
-import AutomatasProject from './AutomatasProject.js';
-import MozoProject from './MozoProject.js';
+import Foot from './Foot.js';
+import MenuBar from './MenuBar.js';
+import Projects from './Projects.js';
+import Aboutme from './Aboutme.js';
+import MyStory from './MyStory.js';
 
 class App extends Component {
+
+  state = { activeTab: 'projects' }
+
+  handleChangeMenuTab = (name)=>{
+    this.setState({ activeTab: name });
+  }
+
   render() {
+    const tabs = {
+      'projects': <Projects/>,
+      'aboutme':  <Aboutme/>,
+      'mystory': <MyStory/>
+    }
+    const content = tabs[this.state.activeTab];
+
     return (
       <div className="App">
         <section className="head-section">
@@ -20,17 +32,13 @@ class App extends Component {
         </section>
         <section className="projects-section">
           <Container>
-            <Divider horizontal><Header size={'big'}><Icon name='travel'/>PROJECTS</Header></Divider>
-          <Item.Group>
-            <MozoProject lang={'en'}/>
-            <TriviaAppProject lang={'en'}/>
-            <MinigamesProject lang={'en'}/>
-            <KartRacingProject lang={'en'}/>
-            <MiniTanksProject lang={'en'}/>
-            <AutomatasProject lang={'en'}/>
-            <TournamentProject lang={'en'}/>
-          </Item.Group>
+            <MenuBar activeTab={this.state.activeTab}  onChangeTab={this.handleChangeMenuTab}/>
+            <br/>
+            {content}
           </Container>
+        </section>
+        <section className="foot-section">
+        <Foot/>
         </section>
       </div>
     );

@@ -11,6 +11,7 @@ const tech = <span>
 const en = {
   image: './img/sc.png',
   title: '3D Unity Videogame',
+  year: '2015',
   techs: tech,
   subtitle: 'Super Kart Racing: simple timed racing game',
   desc: <span>Made in <em>Unity</em>, programmed with <em>C#</em>. Race against other AI driven karts, on a selected number of laps, adjust acceleration, max speed, and steering. Highscore saves and displays in table to compare with other players scores.</span>,

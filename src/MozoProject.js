@@ -12,6 +12,7 @@ const tech = <span>
 const en = {
   image: './img/mozo.png',
   title: 'MozoApp',
+  year: '2016',
   techs: tech,
   subtitle: 'Mobile hibrid App for Restaurants',
   desc: <span>App to order food in a restaurant directly from your smartphone, without the need of a waiter. Built with <em>Meteor</em> for back-end and <em>React</em> for front end. CSS styling and GUI with <em>Ionic</em></span>,
