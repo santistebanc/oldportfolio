@@ -11,7 +11,7 @@ export default class Aboutme extends Component {
     return (
         <Container>
           <Divider horizontal><Header size='medium'><Icon name='user'/>ABOUT ME</Header></Divider>
-          <Container text>
+          <Container>
             <Header size="medium">Profile</Header>
             <Profile lang={'en'}/>
             <br/>
