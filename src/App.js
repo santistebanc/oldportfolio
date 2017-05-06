@@ -11,7 +11,7 @@ import MyStory from './MyStory.js';
 
 class App extends Component {
 
-  state = { activeTab: 'projects' }
+  state = { activeTab: 'aboutme' }
 
   handleChangeMenuTab = (name)=>{
     this.setState({ activeTab: name });

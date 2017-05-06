@@ -10,26 +10,26 @@ const en = {
   conceptsList: ['asynchronicity','modularization and components','client-server interaction','API use and development','responsive design', 'testing','DOM Manipulation','hosting and deployment']
 }
 
-const SkillLabel = ({image, title}) => <Label basic image className='skillLabel' size='small'>
+const SkillLabel = ({image, title}) => <Label basic image className='skillLabel' size='medium'>
     <img src={image}/>{title}
   </Label>;
 
 const Knowledge = ({experienceTitle, experienceList, conceptsTitle, conceptsList}) => (
       <Container fluid>
-        <SkillLabel image={"./img/html5.png"} title={"HTML"}/>
-        <SkillLabel image={"./img/javascript.png"} title={"javascript | ES6"}/>
-        <SkillLabel image={"./img/css.png"} title={"CSS"}/>
-        <SkillLabel image={"./img/csharp.png"} title={"C#"}/>
-        <SkillLabel image={"./img/actionscript.png"} title={"Actionscript 3"}/>
         <SkillLabel image={"./img/node.png"} title={"node"}/>
-        <SkillLabel image={"./img/git.png"} title={"git"}/>
+        <SkillLabel image={"./img/react.png"} title={"React"}/>
+        <SkillLabel image={"./img/express.png"} title={"Express"}/>
+        <SkillLabel image={"./img/d3.png"} title={"D3"}/>
+        <SkillLabel image={"./img/meteor.svg"} title={"Meteor"}/>
+        <SkillLabel image={"./img/javascript.png"} title={"ES6 | ES7"}/>
         <SkillLabel image={"./img/sass.svg"} title={"less / sass"}/>
+        <SkillLabel image={"./img/git.png"} title={"git"}/>
+        <SkillLabel image={"./img/php.svg"} title={"PHP"}/>
+        <SkillLabel image={"./img/csharp.png"} title={"C#"}/>
         <SkillLabel image={"./img/jquery.png"} title={"jquery"}/>
         <SkillLabel image={"./img/mysql.png"} title={"mySQL"}/>
         <SkillLabel image={"./img/mongodb.png"} title={"mongoDB"}/>
-        <SkillLabel image={"./img/react.png"} title={"React"}/>
-        <SkillLabel image={"./img/d3.png"} title={"D3"}/>
-        <SkillLabel image={"./img/meteor.svg"} title={"Meteor"}/>
+        <SkillLabel image={"./img/actionscript.png"} title={"Actionscript 3"}/>
         <SkillLabel image={"./img/phaser.png"} title={"Phaser"}/>
         <SkillLabel image={"./img/unity.png"} title={"Unity"}/>
         <SkillLabel image={"./img/office.png"} title={"MS Office"}/>

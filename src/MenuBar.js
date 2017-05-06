@@ -22,13 +22,13 @@ export default class MenuBar extends Component {
     const { activeTab } = this.props;
     return (
       <Menu color='blue' size="small" stackable>
+          <Menu.Item name='aboutme' active={activeTab === 'aboutme'} onClick={this.handleTabClick}>
+            <Icon name='user' size='large'/>
+            Profile
+          </Menu.Item>
           <Menu.Item name='projects' active={activeTab === 'projects'} onClick={this.handleTabClick}>
             <Icon name='travel' size='large'/>
             Projects
-          </Menu.Item>
-          <Menu.Item name='aboutme' active={activeTab === 'aboutme'} onClick={this.handleTabClick}>
-            <Icon name='user' size='large'/>
-            About me
           </Menu.Item>
           {/* <Menu.Item name='mystory' active={activeTab === 'mystory'} onClick={this.handleTabClick}>
             <Icon name='book' size='large'/>

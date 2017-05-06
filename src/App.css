@@ -83,3 +83,11 @@ em{
 .stackable.menu>div.right.menu>div.ui.buttons{
   width:100%;
 }
+
+.profileheader{
+  font-size: 2em !important;
+}
+
+.centertext{
+  text-align: center;
+}

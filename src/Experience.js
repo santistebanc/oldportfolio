@@ -12,7 +12,7 @@ const en = {
 }
 
 const Experience = ({now, studies, mls, furtwangen, aisa}) => (
-      <Container>
+      <Container style={{paddingLeft: 15}}>
         <Table compact>
           <Table.Body>
             <Table.Row>

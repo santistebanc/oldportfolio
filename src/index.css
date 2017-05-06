@@ -5,21 +5,30 @@
   src: url('../public/OpenSans-Regular.ttf');
 }
 
+@font-face {
+  font-family: 'Hallosans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../public/Hallosans.otf');
+}
+
 body {
   margin: 0;
   padding: 0;
   font-size: 11pt !important;
-  font-family: 'OpenSans', sans-serif !important;
+  font-family: 'OpenSans', sans-serif;
   background-color: #FCFCFD;
+  background-image: url('../public/circles-and-roundabouts.png');
+  /*background-size:8px 8px;*/
 }
 
 
 h1,h2,h3,h4,h5,h6{
-  font-family: 'OpenSans', sans-serif !important;
+  font-family: 'OpenSans', sans-serif;
 }
 
 .ui.header{
-  font-family: 'OpenSans', sans-serif !important;
+  font-family: 'OpenSans', sans-serif;
 }
 
 .ui.white{

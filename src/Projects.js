@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Header, Divider, Container, Icon, Item } from 'semantic-ui-react'
+import { Header, Divider, Container, Icon, Item, Segment } from 'semantic-ui-react'
 import TriviaAppProject from './TriviaAppProject.js';
 import MinigamesProject from './MinigamesProject.js';
 import TournamentProject from './TournamentProject.js';
@@ -14,7 +14,8 @@ export default class Projects extends Component {
   render() {
     return (
         <Container>
-          <Divider horizontal><Header size='medium'><Icon name='travel'/>PROJECTS</Header></Divider>
+          <Segment>
+          {/* <Divider horizontal><Header size='medium'><Icon name='travel'/>PROJECTS</Header></Divider> */}
           <Item.Group>
             <MozoProject lang={'en'}/>
             <TriviaAppProject lang={'en'}/>
@@ -24,6 +25,7 @@ export default class Projects extends Component {
             <AutomatasProject lang={'en'}/>
             <TournamentProject lang={'en'}/>
           </Item.Group>
+        </Segment>
       </Container>
     );
   }

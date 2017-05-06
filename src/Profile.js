@@ -1,5 +1,5 @@
 import React from 'react'
-import { Label, Flag, List, Icon } from 'semantic-ui-react';
+import { Label, Flag, List, Icon, Statistic } from 'semantic-ui-react';
 
 
 const LanguageLabel = ({icon, title, desc}) => <Label basic image className='languageLabel'>
@@ -7,9 +7,12 @@ const LanguageLabel = ({icon, title, desc}) => <Label basic image className='lan
   </Label>;
 
 const en = {
-  developer: <span>Web Developer with focus on <strong className="green">Front-End</strong></span>,
-  areas: <span>Experienced in design and development of <strong>hybrid applications</strong> (web and mobile) and <strong>2D/3D videogames</strong></span>,
-  experience: <span><strong>5+ years</strong> doing Web Development projects and <strong>1 year</strong> of Professional Experience</span>,
+  developer: <span className="profileheader">Passionate <strong className="green">Front-End</strong> Developer</span>,
+  areas: <span>Experienced in design and development of <strong>Web Apps</strong> and <strong>2D/3D videogames</strong></span>,
+  wdyears: "5+ years",
+  wdexperience: "doing Web Development projects",
+  profyears: "~1 year",
+  profexperience: "of Professional Experience",
   languages: <span><p>Languages: </p><p>
     <LanguageLabel icon='es' title='Spanish' desc='native'/>
     <LanguageLabel icon='gb' title='English' desc='fluent'/>
@@ -18,7 +21,7 @@ const en = {
   qualities: 'Curious, proactive, creative, friendly, responsible'
 }
 
-const Profile = ({developer, experience, areas, languages, qualities}) => <List>
+const Profile = ({developer, wdyears, wdexperience, profyears, profexperience, areas, languages, qualities}) => <List className="centertext">
     <List.Item>
       {/* <Icon name='right triangle' /> */}
       <List.Content>{developer}</List.Content>
@@ -26,7 +29,22 @@ const Profile = ({developer, experience, areas, languages, qualities}) => <List>
     <br/>
     <List.Item>
       {/* <Icon name='right triangle' /> */}
-      <List.Content>{experience}</List.Content>
+      <List.Content>
+        <Statistic>
+          <Statistic.Value>{wdyears}</Statistic.Value>
+          <Statistic.Label>{wdexperience}</Statistic.Label>
+        </Statistic>
+      </List.Content>
+    </List.Item>
+  <br/>
+    <List.Item>
+      {/* <Icon name='right triangle' /> */}
+      <List.Content>
+        <Statistic>
+          <Statistic.Value>{profyears}</Statistic.Value>
+          <Statistic.Label>{profexperience}</Statistic.Label>
+        </Statistic>
+      </List.Content>
     </List.Item>
     <br/>
     <List.Item>
@@ -35,14 +53,12 @@ const Profile = ({developer, experience, areas, languages, qualities}) => <List>
     </List.Item>
     <br/>
     <List.Item>
-      {/* <Icon name='right triangle' /> */}
       <List.Content>{languages}</List.Content>
     </List.Item>
     <br/>
-    <List.Item>
-      {/* <Icon name='right triangle' /> */}
+    {/* <List.Item>
       <List.Content>{qualities}</List.Content>
-    </List.Item>
+    </List.Item> */}
   </List>
 
   const content = {en};
