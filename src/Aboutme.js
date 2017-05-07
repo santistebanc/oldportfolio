@@ -9,7 +9,7 @@ export default class Aboutme extends Component {
 
   render() {
     return (
-      <Container>
+      <Container className="nomargin">
         <Segment>
           <br/>
           <Grid doubling columns={2}>

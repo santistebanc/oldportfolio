@@ -85,9 +85,28 @@ em{
 }
 
 .profileheader{
-  font-size: 2em !important;
+  font-size: 1.5em !important;
 }
 
 .centertext{
   text-align: center;
+}
+
+.ui.menu{
+  margin: 0 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.container.nomargin {
+    margin: 0 !important;
+  }
+  .head-section{
+    box-shadow: none;
+  }
+  .projects-section{
+    padding-top: 0;
+  }
+  div.nice-header.smallen {
+    font-size: 2.2em !important;
+  }
 }

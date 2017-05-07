@@ -11,7 +11,7 @@ class Head extends Component {
   }
   render() {
     return <Container>
-        <Header size={'huge'} inverted className={"nice-header"}>Carlos Santisteban</Header>
+        <Header size={'huge'} inverted className={"nice-header smallen"}>Carlos Santisteban</Header>
         <div><span style={{fontSize: '1.5em', color:"#eee"}}>Web Developer with focus on <strong style={{color:"#8adb3b"}}>Front-End</strong></span></div>
       </Container>
   }

@@ -31,9 +31,8 @@ class App extends Component {
         <Head/>
         </section>
         <section className="projects-section">
-          <Container>
+          <Container className="nomargin">
             <MenuBar activeTab={this.state.activeTab}  onChangeTab={this.handleChangeMenuTab}/>
-            <br/>
             {content}
           </Container>
         </section>

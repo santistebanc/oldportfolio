@@ -13,9 +13,8 @@ export default class Projects extends Component {
 
   render() {
     return (
-        <Container>
+        <Container className="nomargin">
           <Segment>
-          {/* <Divider horizontal><Header size='medium'><Icon name='travel'/>PROJECTS</Header></Divider> */}
           <Item.Group>
             <MozoProject lang={'en'}/>
             <TriviaAppProject lang={'en'}/>
