@@ -109,4 +109,29 @@ em{
   div.nice-header.smallen {
     font-size: 2.2em !important;
   }
+  .ui.stackable.menu .item.notstack{
+    width: auto !important;
+  }
+  .ui.stackable.menu{
+    flex-direction: row !important;
+  }
+  .ui.stackable.menu .right.menu.notstack {
+    margin-left: auto !important;
+  }
+  .right.menu{
+    width: 228px;
+  }
+}
+@media only screen and (max-width: 452px) {
+  .ui.stackable.menu{
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+  .ui.stackable.menu .item.notstack{
+    width: 50% !important;
+  }
+  .ui.stackable.menu .right.menu.notstack {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }

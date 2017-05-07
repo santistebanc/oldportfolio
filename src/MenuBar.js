@@ -22,11 +22,11 @@ export default class MenuBar extends Component {
     const { activeTab } = this.props;
     return (
       <Menu color='blue' size="small" stackable>
-          <Menu.Item name='aboutme' active={activeTab === 'aboutme'} onClick={this.handleTabClick}>
+          <Menu.Item name='aboutme' active={activeTab === 'aboutme'} onClick={this.handleTabClick} className="notstack">
             <Icon name='user' size='large'/>
             Profile
           </Menu.Item>
-          <Menu.Item name='projects' active={activeTab === 'projects'} onClick={this.handleTabClick}>
+          <Menu.Item name='projects' active={activeTab === 'projects'} onClick={this.handleTabClick} className="notstack">
             <Icon name='travel' size='large'/>
             Projects
           </Menu.Item>
@@ -34,7 +34,7 @@ export default class MenuBar extends Component {
             <Icon name='book' size='large'/>
             My Story
           </Menu.Item> */}
-          <Menu.Menu position='right'>
+          <Menu.Menu position='right' className="notstack">
             {/* <Menu.Item fitted> */}
           <Button.Group>
             <Button basic compact onClick={this.handleResumeClick}>
