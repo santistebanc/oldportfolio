@@ -10,7 +10,7 @@ export default class Aboutme extends Component {
   render() {
     return (
       <Container className="nomargin">
-        <Segment>
+        <Segment style={{paddingLeft: 30, paddingRight: 30}}>
           <br/>
           <Grid doubling columns={2}>
             <Grid.Column>
@@ -18,7 +18,7 @@ export default class Aboutme extends Component {
               <br/>
             </Grid.Column>
             <Grid.Column>
-              <Header size="medium">Frameworks, tools and languages</Header>
+              <Header size="medium">Frameworks, libraries and languages</Header>
               <Knowledge lang={'en'}/>
               <br/>
             </Grid.Column>

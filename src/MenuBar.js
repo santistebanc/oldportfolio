@@ -30,10 +30,10 @@ export default class MenuBar extends Component {
             <Icon name='travel' size='large'/>
             Projects
           </Menu.Item>
-          {/* <Menu.Item name='mystory' active={activeTab === 'mystory'} onClick={this.handleTabClick}>
+          <Menu.Item name='mystory' active={activeTab === 'mystory'} onClick={this.handleTabClick}  className="notstack">
             <Icon name='book' size='large'/>
             My Story
-          </Menu.Item> */}
+          </Menu.Item>
           <Menu.Menu position='right' className="notstack">
             {/* <Menu.Item fitted> */}
           <Button.Group>

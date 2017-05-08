@@ -16,8 +16,8 @@ const en = {
   subtitle: 'HTML5 Canvas Mobile game',
   desc: <span>Prototype Mobile game developed with <em>Phaser.js</em>. Earn points completing a series of 'minigames' in a certain amount of time. Designed to run in all major mobile platforms and on the web.</span>,
   extra: <List horizontal>
-    <List.Item><a href={'https://github.com/santistebanc/minigames'}><Icon name="github square"/>github repo</a></List.Item>
-    <List.Item><a href={'http://santistebanc.tk/minigames'}><Icon name="play"/>run demo</a></List.Item>
+    <List.Item><a target="_blank" href={'https://github.com/santistebanc/minigames'}><Icon name="github square"/>github repo</a></List.Item>
+    <List.Item><a target="_blank" href={'http://santistebanc.tk/minigames'}><Icon name="play"/>run demo</a></List.Item>
   </List>
 }
 

@@ -16,8 +16,8 @@ const en = {
   subtitle: 'Super Kart Racing: simple timed racing game',
   desc: <span>Made in <em>Unity</em>, programmed with <em>C#</em>. Race against other AI driven karts, on a selected number of laps, adjust acceleration, max speed, and steering. Highscore saves and displays in table to compare with other players scores.</span>,
   extra: <List horizontal>
-    <List.Item><a href={'https://github.com/santistebanc/superCar'}><Icon name="github square"/>github repo</a></List.Item>
-    <List.Item><a href={'http://santistebanc.tk/superCar'}><Icon name="play"/>run demo</a></List.Item>
+    <List.Item><a target="_blank" href={'https://github.com/santistebanc/superCar'}><Icon name="github square"/>github repo</a></List.Item>
+    <List.Item><a target="_blank" href={'http://santistebanc.tk/superCar'}><Icon name="play"/>run demo</a></List.Item>
   </List>
 }
 

@@ -2,18 +2,21 @@ import React from 'react'
 import { Label, Flag, List, Icon, Statistic } from 'semantic-ui-react';
 
 
-const LanguageLabel = ({icon, title, desc}) => <Label basic image className='languageLabel'>
-    <Flag name={icon}/> <strong>{title}</strong><i style={{fontWeight: 'normal', marginLeft: 5}}>{desc}</i>
+const LanguageLabel = ({icon, title, desc}) => <Label basic image size="large" className='languageLabel'>
+    <Flag name={icon} size="large"/> <strong>{title}</strong><i style={{fontWeight: 'normal', marginLeft: 5}}>{desc}</i>
   </Label>;
 
 const en = {
-  developer: <span className="profileheader">Passionate <strong className="green">Front-End</strong> Developer</span>,
-  areas: <span>Experienced in design and development of <strong>Web Apps</strong> and <strong>2D/3D videogames</strong></span>,
+  developer: <p><span className="profileheader">Enthusiastic <strong className="green">Front-End</strong> developer, experienced in developing <strong>Web Apps</strong> using various web technologies.</span></p>,
+  bsdegree:<span className="profilepoint">Just received my <strong>Bachelor's Degree in <i>Informatics Engineering.</i></strong></span>,
+  hybrid: <span>Experience building <strong>Hybrid Apps</strong> (web and mobile).</span>,
+  games: <span>Skilled in design and development of <strong>2D/3D videogames.</strong></span>,
+  passionate: <span>I am passionate about web technologies, always looking for the latest developments in the world of <strong>Javascript</strong>, like new frameworks, tools, or best practices for coding.</span>,
   wdyears: "5+ years",
   wdexperience: "doing Web Development projects",
   profyears: "~1 year",
   profexperience: "of Professional Experience",
-  languages: <span><p>Languages: </p><p>
+  languages: <span><p>I speak </p><p>
     <LanguageLabel icon='es' title='Spanish' desc='native'/>
     <LanguageLabel icon='gb' title='English' desc='fluent'/>
     <LanguageLabel icon='de' title='German' desc='B2'/>
@@ -21,13 +24,13 @@ const en = {
   qualities: 'Curious, proactive, creative, friendly, responsible'
 }
 
-const Profile = ({developer, wdyears, wdexperience, profyears, profexperience, areas, languages, qualities}) => <List className="centertext">
+const Profile = ({developer, wdyears, wdexperience, profyears, profexperience, bsdegree, languages, qualities, hybrid, games}) => <List>
     <List.Item>
       {/* <Icon name='right triangle' /> */}
       <List.Content>{developer}</List.Content>
     </List.Item>
     <br/>
-    <List.Item>
+    <List.Item className="centertext">
       {/* <Icon name='right triangle' /> */}
       <List.Content>
         <Statistic>
@@ -37,7 +40,7 @@ const Profile = ({developer, wdyears, wdexperience, profyears, profexperience, a
       </List.Content>
     </List.Item>
   <br/>
-    <List.Item>
+    <List.Item className="centertext">
       {/* <Icon name='right triangle' /> */}
       <List.Content>
         <Statistic>
@@ -47,9 +50,18 @@ const Profile = ({developer, wdyears, wdexperience, profyears, profexperience, a
       </List.Content>
     </List.Item>
     <br/>
+    <br/>
     <List.Item>
-      {/* <Icon name='right triangle' /> */}
-      <List.Content>{areas}</List.Content>
+      <Icon name='right triangle' />
+      <List.Content>{bsdegree}</List.Content>
+    </List.Item>
+    <List.Item>
+      <Icon name='right triangle' />
+      <List.Content>{hybrid}</List.Content>
+    </List.Item>
+    <List.Item>
+      <Icon name='right triangle' />
+      <List.Content>{games}</List.Content>
     </List.Item>
     <br/>
     <List.Item>

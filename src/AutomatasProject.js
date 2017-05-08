@@ -16,8 +16,8 @@ const en = {
   subtitle: 'Create states, input, and functions to visualize state-machines',
   desc: <span>Deterministic, Nondeterministic, finite  Automaton, pushdown Automaton and Turing machine simulator in javascript. Visualization graph made with <em>mermaid.js</em></span>,
   extra: <List horizontal>
-    <List.Item><a href={'https://github.com/santistebanc/automatas'}><Icon name="github square"/>github repo</a></List.Item>
-    <List.Item><a href={'http://santistebanc.tk/automatas'}><Icon name="play"/>run demo</a></List.Item>
+    <List.Item><a target="_blank" href={'https://github.com/santistebanc/automatas'}><Icon name="github square"/>github repo</a></List.Item>
+    <List.Item><a target="_blank" href={'http://santistebanc.tk/automatas'}><Icon name="play"/>run demo</a></List.Item>
   </List>
 }
 
