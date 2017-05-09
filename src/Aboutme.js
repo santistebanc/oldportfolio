@@ -3,6 +3,7 @@ import Profile from './Profile.js';
 import Experience from './Experience.js';
 import Knowledge from './Knowledge.js';
 import Stats from './Stats.js';
+import About from './About.js';
 
 import { Header, Divider, Container, Icon, Segment, Grid } from 'semantic-ui-react'
 
@@ -19,12 +20,13 @@ export default class Aboutme extends Component {
               <br/>
             </Grid.Column>
             <Grid.Column>
-              <Header size="medium">Frameworks, libraries and languages</Header>
               <Knowledge lang={'en'}/>
               <br/>
             </Grid.Column>
           </Grid>
           <Stats lang={'en'}/>
+          <br/>
+          <br/>
           <Grid>
             <Grid.Column>
               <Header size="medium">Education and Professional Experience</Header>
@@ -32,6 +34,8 @@ export default class Aboutme extends Component {
               <br/>
             </Grid.Column>
           </Grid>
+          <About lang={'en'}/>
+          <br/>
         </Segment>
       </Container>
     );
