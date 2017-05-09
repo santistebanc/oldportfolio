@@ -9,6 +9,7 @@ const LanguageLabel = ({icon, title, desc}) => <Label basic image size="large" c
 const en = {
   developer: <p><span className="profileheader">Enthusiastic <strong className="green">Front-End</strong> developer, experienced in developing <strong>Web Apps</strong> using various web technologies.</span></p>,
   bsdegree:<span className="profilepoint">Just received my <strong>Bachelor's Degree in <i>Informatics Engineering.</i></strong></span>,
+  age: <span>I am <strong>23 years old</strong> born in <strong>Mexico</strong>. I hold a second nationality from <strong>Spain</strong>, therefore I am recognized as a <strong>citizen of the European Union</strong></span>,
   hybrid: <span>Experience building <strong>Hybrid Apps</strong> (web and mobile).</span>,
   games: <span>Skilled in design and development of <strong>2D/3D videogames.</strong></span>,
   passionate: <span>I am passionate about web technologies, always looking for the latest developments in the world of <strong>Javascript</strong>, like new frameworks, tools, or best practices for coding.</span>,
@@ -24,7 +25,7 @@ const en = {
   qualities: 'Curious, proactive, creative, friendly, responsible'
 }
 
-const Profile = ({developer, wdyears, wdexperience, profyears, profexperience, bsdegree, languages, qualities, hybrid, games}) => <List>
+const Profile = ({developer, wdyears, wdexperience, profyears, profexperience, bsdegree, languages, qualities, hybrid, games, age}) => <List>
     <List.Item>
       {/* <Icon name='right triangle' /> */}
       <List.Content>{developer}</List.Content>
@@ -65,9 +66,12 @@ const Profile = ({developer, wdyears, wdexperience, profyears, profexperience, b
     </List.Item>
     <br/>
     <List.Item>
-      <List.Content>{languages}</List.Content>
+      <List.Content>{age}</List.Content>
     </List.Item>
     <br/>
+    <List.Item>
+      <List.Content>{languages}</List.Content>
+    </List.Item>
     {/* <List.Item>
       <List.Content>{qualities}</List.Content>
     </List.Item> */}

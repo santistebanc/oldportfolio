@@ -14,7 +14,7 @@ export default class MyStory extends Component {
       <Container className="nomargin">
         <Segment>
           <br/>
-          <Container text style={{paddingLeft: 20, paddingRight: 20}}>
+          <Container text className="storycontainer">
             {content}
           </Container>
           <br/>

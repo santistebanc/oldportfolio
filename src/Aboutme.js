@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Profile from './Profile.js';
 import Experience from './Experience.js';
 import Knowledge from './Knowledge.js';
+import Stats from './Stats.js';
 
 import { Header, Divider, Container, Icon, Segment, Grid } from 'semantic-ui-react'
 
@@ -10,7 +11,7 @@ export default class Aboutme extends Component {
   render() {
     return (
       <Container className="nomargin">
-        <Segment style={{paddingLeft: 30, paddingRight: 30}}>
+        <Segment className="paddingsegment">
           <br/>
           <Grid doubling columns={2}>
             <Grid.Column>
@@ -23,6 +24,7 @@ export default class Aboutme extends Component {
               <br/>
             </Grid.Column>
           </Grid>
+          <Stats lang={'en'}/>
           <Grid>
             <Grid.Column>
               <Header size="medium">Education and Professional Experience</Header>

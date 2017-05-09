@@ -51,9 +51,11 @@ The advantage was that I never got bored and got to try a lot of cool stuff, the
 
 I really put a lot of effort on learning Ember, I read the whole documentation, followed lots of tutorials, even read books,... but in the end, I couldn’t make it work for me. The framework was perhaps too monolithic, too opinionated; the learning curve was indeed very steep (and they mentioned it in an article when I was deciding to pick it); but mostly, it just wasn’t making me terribly excited about it (like I was with Macromedia Flash back then). I lost interest.
 
-I went back to trying other frameworks
+I went back to trying other frameworks...
 
-One in particular that caught my attention was React.
+*(...I haven't finished the story yet)*
+
+<!-- One in particular that caught my attention was React.
 It was simple, yet effective
 I could choose the backend, the UI, the routing, the database, any extra functionality I could just import from somewhere else, and not be forced to constrain myself to the framework capabilities. I liked that.
 
@@ -77,4 +79,4 @@ At the university in Furtwangen, I registered in lots of fun classes, three of t
 
 My internship there, along some entrepreneurial experiences I had after I returned from Germany, served me get a good taste of the startup culture
 
-I went to Germany, got a taste of start-up
+I went to Germany, got a taste of start-up -->
