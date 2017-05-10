@@ -9,19 +9,6 @@ const SkillLabel = ({image, title}) => <Label basic image className='skillLabel'
     <img src={image}/>{title}
   </Label>;
 
-/*FRAMEWORKS AND LIBRARIES
-Node, React, Express, Meteor, JQuery, Phaser, Ionic, Semantic UI
-
-TOOLS AND COMPILERS
-Webpack, npm, git, Babel, ESLint, Underscore, LESS | SASS, Cordova
-
-LANGUAGES AND SOFTWARE
-Javascript (Vanilla & ES6), CSS, HTML, PHP, C#, SQL, MongoDB, Actionscript, Unity, MS Office
-
-CURRENTLY EXPERIMENTING WITH
-React Native, Jest, JSDocs, */
-
-
 const Knowledge = () => (
       <Container fluid>
       <Container fluid>

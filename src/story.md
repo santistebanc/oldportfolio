@@ -51,32 +51,20 @@ The advantage was that I never got bored and got to try a lot of cool stuff, the
 
 I really put a lot of effort on learning Ember, I read the whole documentation, followed lots of tutorials, even read books,... but in the end, I couldn’t make it work for me. The framework was perhaps too monolithic, too opinionated; the learning curve was indeed very steep (and they mentioned it in an article when I was deciding to pick it); but mostly, it just wasn’t making me terribly excited about it (like I was with Macromedia Flash back then). I lost interest.
 
-I went back to trying other frameworks...
+I went on trying other new frameworks. One in particular, that caught my attention, was React. It was simple, yet effective, and it covered only the View part of the application; which is something I began to appreciate from frameworks, that is, that they weren’t an all-encompassing one-solution for creating Web Apps (like Ember), but they took care of single aspects of the application at a time. This meant that I could choose the backend, the ui, the routing, the database, separately and that any extra functionality I could just import from somewhere else, and not be forced to constrain myself to the framework capabilities. I liked that. 
+
+By this time, Modularization on the Front-end was maturing and quickly becoming the norm. I started getting quite adept with combining external tools (now using npm packages and build tools), and I also started giving a real use to my github account (I had it for years before, but never really got to use it).
+
+After lots of experimentation with different tools and libraries, I got convinced that the best ones will be those who do just one thing (and they do it well), are unobtrusive and agnostic to other tools in your app, and do not reinvent the wheel but apply commonly held best-practices and standards in the web-tech world.
+
+#### New experiences
+
+I was in my 6th semester when applied to a scholarship on a program for engineers from the german government (DAAD), it consisted of 6 months of studying at a german university, and another half-year doing an internship in some german company. It was my chance to go out there and have the so-called international experience. And it was an amazing experience, I cannot exaggerate.
+
+At the university in Furtwangen, I registered in lots of fun and interesting classes, three of them related to videogame development (I had some optional credits so I could choose whichever subject I wanted). There I developed some unsophisticated but quite fun video games in Unity and Flash.
+
+For the internship afterwards, I applied to a medium-sized start-up in Berlin. I was finally doing what I liked and getting regularly paid for it; and I was good at it, I figured that was what work was about. I enjoyed the casual, fun environment that seems to be guaranteed in start-ups, the flat hierarchies and culture of fast-paced team-work got me hooked, I now have a high regard for start-up companies. And Berlin is really one great place to seek these companies. I love this city, I have many great memories of Berlin and I want to come back.
+
+Back in Mexico, I had still one more year to finish my studies. 
 
 *(...I haven't finished the story yet)*
-
-<!-- One in particular that caught my attention was React.
-It was simple, yet effective
-I could choose the backend, the UI, the routing, the database, any extra functionality I could just import from somewhere else, and not be forced to constrain myself to the framework capabilities. I liked that.
-
-I started getting quite adept with combining external tools (now using npm packages and build tools)
-
-I also started giving a real use to my GitHub account (I had it for years before, but never really got to use it)
-
-I combined it with other tools
-It worked very nicely, and I noticed some characteristics of it
-I used it to rapidly develop and app to arrange a tournament
-
-This experience
-
-I got convinced that the best tools and frameworks will be those who do just one thing (and they do it well), are unobtrusive and agnostic to other tools in your app, and do not reinvent the wheel but apply commonly held best-practices and standards in the web-tech world.
-
-#### New path ahead
-
-I was in my 6th semester when applied to a scholarship from the German government (DAAD) to go study and work in Germany for a year.
-
-At the university in Furtwangen, I registered in lots of fun classes, three of them related to videogame development.
-
-My internship there, along some entrepreneurial experiences I had after I returned from Germany, served me get a good taste of the startup culture
-
-I went to Germany, got a taste of start-up -->

@@ -17,7 +17,7 @@ const Experience = ({now, studies, mls, furtwangen, aisa}) => (
           <Table.Body>
             <Table.Row>
               <Table.Cell collapsing>
-                <Label ribbon>{now}</Label>
+                <Label ribbon>2017</Label>
               </Table.Cell>
               <Table.Cell>{studies}</Table.Cell>
             </Table.Row>
