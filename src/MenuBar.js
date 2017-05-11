@@ -9,7 +9,7 @@ export default class MenuBar extends Component {
   }
 
   handleResumeClick(){
-    window.location = '/Portfolio.pdf';
+    window.location = '/Resume.pdf';
   }
   handleGithubClick(){
     window.location = 'https://github.com/santistebanc';
