@@ -4,7 +4,7 @@ import { Label, Container, List, Grid } from 'semantic-ui-react';
 
 const en = {
   experienceTitle: 'Adept with Web Development tools:',
-  experienceList: ['Package Managers (npm)','Task Runners (Grunt, Gulp)','Compilers (Babel)','Bundlers (Webpack)','Code Quality (ESLint)','Version Control (Git)',,'Utility Libraries (Underscore)','Templating (Handlebars)','CSS Frameworks (Bootstrap, Semantic UI)'],
+  experienceList: ['Package Managers (npm)','Task Runners (Grunt, Gulp)','Compilers (Babel)','Bundlers (Webpack)','Code Quality (ESLint)','Version Control (Git)',,'Utility Libraries (Lodash, Underscore)','Templating (Handlebars)','CSS Frameworks (Bootstrap, Semantic UI)'],
   conceptsTitle: 'Familiar with Web Development concepts:',
   conceptsList: ['asynchronicity','modularization and components','client-server interaction','API use and development','responsive design', 'testing','DOM Manipulation','hosting and deployment']
 }
