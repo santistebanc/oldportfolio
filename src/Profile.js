@@ -10,7 +10,7 @@ const en = {
   developer: <p><span className="profileheader">Enthusiastic <strong className="green">Front-End</strong> developer, experienced in developing <strong>Web Apps</strong> using various web technologies.</span></p>,
   bsdegree:<span className="profilepoint">Just received my <strong>Bachelor's Degree in <i>Informatics Engineering.</i></strong></span>,
   age: <span>I am <strong>23 years old</strong> born in <strong>Mexico</strong>. I hold a second nationality from <strong>Spain</strong>, therefore I am recognized as a <strong>citizen of the European Union</strong></span>,
-  hybrid: <span>Experience building <strong>Hybrid Apps</strong> (web and mobile).</span>,
+  hybrid: <span>Experienced mostly on building <strong>Web Apps</strong> using the <strong>MERN</strong> stack.</span>,
   games: <span>Skilled in design and development of <strong>2D/3D videogames.</strong></span>,
   passionate: <span>I am passionate about web technologies, always looking for the latest developments in the world of <strong>Javascript</strong>, like new frameworks, tools, or best practices for coding.</span>,
   wdyears: "5+ years",

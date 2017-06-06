@@ -4,6 +4,7 @@ import Experience from './Experience.js';
 import Knowledge from './Knowledge.js';
 import Stats from './Stats.js';
 import About from './About.js';
+import Contact from './Contact.js';
 
 import { Header, Divider, Container, Icon, Segment, Grid } from 'semantic-ui-react'
 
@@ -35,6 +36,8 @@ export default class Aboutme extends Component {
             </Grid.Column>
           </Grid>
           <About lang={'en'}/>
+          <br/>
+          <Contact lang={'en'}/>
           <br/>
         </Segment>
       </Container>

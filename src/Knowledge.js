@@ -5,7 +5,7 @@ import { Label, Container, Header } from 'semantic-ui-react';
 const en = {
 }
 
-const SkillLabel = ({image, title}) => <Label basic image className='skillLabel' size='medium'>
+const SkillLabel = ({image, title}) => <Label basic image className='skillLabel' size='small'>
     <img src={image}/>{title}
   </Label>;
 
@@ -15,13 +15,12 @@ const Knowledge = () => (
         <Header size="medium">Frameworks and Libraries</Header>
         <SkillLabel image={"./img/node.png"} title={"Node"}/>
         <SkillLabel image={"./img/react.png"} title={"React"}/>
+        <SkillLabel image={"./img/redux.png"} title={"Redux"}/>
         <SkillLabel image={"./img/express.png"} title={"Express"}/>
         <SkillLabel image={"./img/meteor.svg"} title={"Meteor"}/>
         <SkillLabel image={"./img/d3.png"} title={"D3"}/>
         <SkillLabel image={"./img/jquery.png"} title={"JQuery"}/>
         <SkillLabel image={"./img/phaser.png"} title={"Phaser"}/>
-        <SkillLabel image={"./img/ionic.png"} title={"Ionic"}/>
-        <SkillLabel image={"./img/semanticui.png"} title={"Semantic UI"}/>
       </Container>
       <br/>
       <Container fluid>
