@@ -17,6 +17,7 @@ const Knowledge = () => (
         <SkillLabel image={"./img/react.png"} title={"React"}/>
         <SkillLabel image={"./img/redux.png"} title={"Redux"}/>
         <SkillLabel image={"./img/express.png"} title={"Express"}/>
+        <SkillLabel image={"./img/next.png"} title={"Next"}/>
         <SkillLabel image={"./img/meteor.svg"} title={"Meteor"}/>
         <SkillLabel image={"./img/d3.png"} title={"D3"}/>
         <SkillLabel image={"./img/jquery.png"} title={"JQuery"}/>

@@ -8,6 +8,7 @@ import MiniTanksProject from './MiniTanksProject.js';
 import KartRacingProject from './KartRacingProject.js';
 import AutomatasProject from './AutomatasProject.js';
 import MozoProject from './MozoProject.js';
+import MexicoendronProject from './MexicoendronProject.js';
 
 export default class Projects extends Component {
 
@@ -16,6 +17,7 @@ export default class Projects extends Component {
         <Container className="nomargin">
           <Segment>
           <Item.Group>
+            <MexicoendronProject lang={'en'}/>
             <MozoProject lang={'en'}/>
             <TriviaAppProject lang={'en'}/>
             <MinigamesProject lang={'en'}/>

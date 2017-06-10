@@ -7,6 +7,7 @@ const tech = <span>
   <TechLabel title={'React'} src={'./img/react.png'}></TechLabel>
   <TechLabel title={'Meteor'} src={'./img/meteor.svg'}></TechLabel>
   <TechLabel title={'Ionic'} src={'./img/ionic.png'}></TechLabel>
+  <TechLabel title={'MongoDB'} src={'./img/mongodb.png'}></TechLabel>
 </span>
 
 const en = {
